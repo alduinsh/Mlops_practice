@@ -9,7 +9,7 @@ train_data = pd.DataFrame({
     'humidity': np.random.normal(loc=50, scale=10, size=2500),
     'pressure': np.random.normal(loc=1000, scale=50, size=2500)
 })
-#Добавим шум
+# Добавим шум
 train_data['temperature'] = train_data['temperature'] + np.random.normal(loc=0, scale=2, size=2500)
 train_data['humidity'] = train_data['humidity'] + np.random.normal(loc=0, scale=2, size=2500)
 train_data['pressure'] = train_data['pressure'] + np.random.normal(loc=0, scale=2, size=2500)
