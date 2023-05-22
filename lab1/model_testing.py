@@ -14,4 +14,4 @@ y_test = test_data['label']
 accuracy = model.score(X_test, y_test)
 
 # Вывод результатов тестирования
-print("Model test accuracy is:", accuracy)
+print("Михайличенко Л.А. / Model test accuracy is:", accuracy)
