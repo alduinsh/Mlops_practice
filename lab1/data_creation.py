@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import os
 
-# Create train set
+# Создадим тренировочного сета
 train_data = pd.DataFrame({
     'temperature': np.random.normal(loc=20, scale=5, size=2500),
     'humidity': np.random.normal(loc=50, scale=10, size=2500),
