@@ -1,4 +1,9 @@
 #!/bin/bash
+pip install pandas
+pip install numpy
+pip install sklearn
+pip pickle
+
 # 1-> Создание данных
 python data_creation.py
 # 2-> Предобработка данных

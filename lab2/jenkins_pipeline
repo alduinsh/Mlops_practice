@@ -1,10 +1,16 @@
-pipeline {
-    agent any
-    stages {
-     stage('Hello') {
-                steps {
-                    echo 'Hello world'
-                }
-            }
-     }
-}
+
+#!/bin/bash
+pip install pandas
+pip install bumpy
+pip install pickle
+pip install sklearn
+Echo «- - - -Create Dataset (begin)- - - - -»
+Python3 /home/debian/project/data_creation.py
+Echo «- - - -Create Dataset (end)- - - - -»
+Echo «- - - -Proccesing Dataset (begin)- - - - -»
+Python3 /home/debian/project/data_preprop.py
+Echo «- - - -Proccesing Dataset (end)- - - - -»
+Echo «- - - -Predict model (begin)- - - - -»
+Python3 /home/debian/project/date_predict.py
+Echo «- - - -Test model(begin)- - - - -»
+Python3 /home/debian/project/model_test.py
