@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Загрузка 
-df = pd.read_csv('datasets/data_mod1.csv')
+df = pd.read_csv('datasets/data_mod_1.csv')
 
 # Заполнение пропущенных зн 
 mean_age = df['Age'].mean()
