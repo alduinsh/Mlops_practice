@@ -9,5 +9,5 @@ mean_age = df['Age'].mean()
 # Изменение 
 df['Age'].fillna(mean_age, inplace=True)
 
-# Сохранение 
+# Сохранение
 df.to_csv('datasets/data_mod2.csv', index=False)
