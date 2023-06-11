@@ -1,0 +1,16 @@
+ 1232  git commit -m 'Modify3'
+ 1233  dvc push
+ 1234  git push origin main
+ 1235  git log --oneline
+ 1236  git checkout HEAD^1
+ 1237  git log --oneline
+ 1238  git checkout 0146be8
+ 1239  git log --oneline
+ 1240  cd
+ 1241  command >> console_log.txt
+ 1242  history > console_log.txt
+ 1243  history
+ 1244  history more
+ 1245  ls -la
+ 1246  cd mlops_practice
+ 1247  cd lab4
